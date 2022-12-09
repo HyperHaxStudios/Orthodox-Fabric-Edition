@@ -10,6 +10,6 @@ public class Orthodox implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		
+		ModItems.registerModItems();
 	}
 }
