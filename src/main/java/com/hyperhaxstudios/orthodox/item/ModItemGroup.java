@@ -8,5 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static final ItemGroup TANZANITE = FabricItemGroupBuilder.Build(
+        new Identifier(Orthodox.MOD_ID, "Orthodox"), () -> new ItemStack(ModItems.RAW_TANZANITE));
+    public static final ItemGroup TANZANITE = FabricItemGroupBuilder.Build(
         new Identifier(Orthodox.MOD_ID, "Orthodox"), () -> new ItemStack(ModItems.TANZANITE));
 }
