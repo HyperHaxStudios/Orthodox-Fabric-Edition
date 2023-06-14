@@ -1,5 +1,6 @@
 package com.hyperhaxstudios.orthodox;
 
+import com.hyperhaxstudios.orthodox.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +13,6 @@ public class Orthodox implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Welcome to Orthodox Fabric Edition!");
+		ModItems.registerModItems();
 	}
 }
