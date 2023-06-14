@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "orthodox",
+	"version": "${version}",
+	"name": "Orthodox Fabric Edition",
+	"description": "The Official Port of the Spigot Plugin",
+	"authors": [
+		"HyperHax"
+	],
+	"contact": {
+		"homepage": "https://sites.google.com/view/orthodoxmc",
+		"sources": "https://github.com/HyperHaxStudios/Orthodox-Fabric-Edition"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/orthodox/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.hyperhaxstudios.orthodox.Orthodox"
+		],
+		"client": [
+			"com.hyperhaxstudios.orthodox.OrthodoxClient"
+		],
+		"fabric-datagen": [
+			"com.hyperhaxstudios.orthodox.OrthodoxDataGenerator"
+		]
+	},
+	"mixins": [
+		"orthodox.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
