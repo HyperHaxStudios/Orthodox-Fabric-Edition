@@ -1,3 +1,9 @@
 {
-  "item.orthodox.ring": "Ring"
+  "item.orthodox.ring": "Ring",
+  "item.orthodox.raw_hyper_iron": "Raw Hyper Iron",
+  "item.orthodox.hyper_iron_ingot": "Hyper Iron Ingot",
+  "block.orthodox.hyper_iron_ore": "Hyper Iron Ore",
+  "block.orthodox.deepslate_hyper_iron_ore": "Deepslate Hyper Iron Ore",
+  "block.orthodox.hyper_iron_block": "Hyper Iron Block"
+
 }

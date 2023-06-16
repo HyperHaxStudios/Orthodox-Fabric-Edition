@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "orthodox:block/deepslate_hyper_iron_ore"
+  }
+}
