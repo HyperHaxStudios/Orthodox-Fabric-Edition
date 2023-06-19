@@ -14,7 +14,7 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.HYPER_IRON_BLOCK);
 
-        oreDrops(ModBlocks.HYPER_IRON_ORE, ModItems.RAW_HYPER_IRON);
-        oreDrops(ModBlocks.DEEPSLATE_HYPER_IRON_ORE, ModItems.RAW_HYPER_IRON);
+        addDrop(ModBlocks.HYPER_IRON_ORE, oreDrops(ModBlocks.HYPER_IRON_ORE, ModItems.RAW_HYPER_IRON));
+        addDrop(ModBlocks.DEEPSLATE_HYPER_IRON_ORE, oreDrops(ModBlocks.DEEPSLATE_HYPER_IRON_ORE, ModItems.RAW_HYPER_IRON));
     }
 }

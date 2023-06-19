@@ -25,5 +25,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_HYPER_IRON, Models.GENERATED);
         itemModelGenerator.register(ModItems.RING, Models.GENERATED);
         itemModelGenerator.register(ModItems.HYPER_IRON_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUSIC_DISC, Models.GENERATED);
     }
 }

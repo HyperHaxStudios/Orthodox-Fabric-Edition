@@ -1,0 +1,10 @@
+{
+  "music_disc": {
+    "sounds": [
+      {
+        "name": "orthodox:music_disc",
+        "stream": true
+      }
+    ]
+  }
+}

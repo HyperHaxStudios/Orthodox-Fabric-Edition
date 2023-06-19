@@ -4,6 +4,7 @@
   "item.orthodox.hyper_iron_ingot": "Hyper Iron Ingot",
   "block.orthodox.hyper_iron_ore": "Hyper Iron Ore",
   "block.orthodox.deepslate_hyper_iron_ore": "Deepslate Hyper Iron Ore",
-  "block.orthodox.hyper_iron_block": "Hyper Iron Block"
-
+  "block.orthodox.hyper_iron_block": "Hyper Iron Block",
+  "item.orthodox.music_disc": "Music Disc",
+  "item.orthodox.music_disc.desc": "SpaceDrone (Radio Edit) by HyperHax"
 }
